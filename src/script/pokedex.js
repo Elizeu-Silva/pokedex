@@ -51,7 +51,7 @@ renderPokemon(pokeButton)
 form.addEventListener('submit', (event) =>{
   event.preventDefault();
 
-  renderPokemon(input.value)
+  renderPokemon(input.value.toLowerCase())
 
 })
 
